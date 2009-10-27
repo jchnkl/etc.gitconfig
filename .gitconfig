@@ -1,0 +1,11 @@
+[user]
+	name = Jochen Keil
+	email = jochen.keil@gmail.com
+[color]
+	ui = auto
+	diff = auto
+	status = auto
+	branch = auto
+[core]
+	excludesfile = /home/jochen/.gitignore
+	pager = less -FXRS
