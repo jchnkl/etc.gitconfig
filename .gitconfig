@@ -7,6 +7,6 @@
 	status = auto
 	branch = auto
 [core]
-	excludesfile = /home/jochen/.gitignore
+	excludesfile = /home/jkeil/.gitignore
 	pager = less -FXRS
 	editor = vim
