@@ -10,3 +10,5 @@
 	excludesfile = /home/jkeil/.gitignore
 	pager = less -FXRS
 	editor = vim
+[merge]
+	tool = gvimdiff
