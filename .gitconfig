@@ -11,4 +11,4 @@
 	pager = less -FXRS
 	editor = vim
 [merge]
-	tool = gvimdiff
+	tool = vimdiff
