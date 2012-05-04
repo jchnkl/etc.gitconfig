@@ -12,3 +12,7 @@
 	editor = vim
 [merge]
 	tool = vimdiff
+[tar "tbz"]
+	command = bzip2 -c
+[tar "tar.bz2"]
+	command = bzip2 -c
