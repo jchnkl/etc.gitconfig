@@ -16,3 +16,7 @@
 	command = bzip2 -c
 [tar "tar.bz2"]
 	command = bzip2 -c
+[init]
+	templatedir = ~/.git_template
+[alias]
+	ctags = !.git/hooks/ctags
