@@ -34,3 +34,4 @@
 	sm = submodule
 	ps = push
 	pl = pull
+	populate = !populate.bash -l -s . -d ..
