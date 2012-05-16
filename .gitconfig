@@ -19,20 +19,20 @@
 [init]
 	templatedir = ~/.git_template
 [alias]
-	ctags = !.git/hooks/ctags
-	l = log
-	lp = log -p
-	s = status
-	c = commit -v
-	ca = commit -v --amend
-	co = checkout
-	cp = checkout -p
-	a = add
-	ap = add -p
-	r = reset
-	rp = reset -p
-	sm = submodule
-	smup = submodule update --recursive --init
-	ps = push
-	pl = pull
+	ctags    = !.git/hooks/ctags
+	l        = log
+	lp       = log -p
+	s        = status
+	c        = commit -v
+	ca       = commit -v --amend
+	co       = checkout
+	cp       = checkout -p
+	a        = add
+	ap       = add -p
+	r        = reset
+	rp       = reset -p
+	sm       = submodule
+	smup     = submodule update --recursive --init
+	ps       = push
+	pl       = pull
 	populate = !populate.bash -l -s . -d ..
