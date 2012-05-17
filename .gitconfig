@@ -23,6 +23,7 @@
 	l        = log
 	lp       = log -p
 	s        = status
+	cl       = clone
 	c        = commit
 	cv       = commit -v
 	ca       = commit -v --amend
