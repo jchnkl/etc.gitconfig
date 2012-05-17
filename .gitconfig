@@ -23,7 +23,8 @@
 	l        = log
 	lp       = log -p
 	s        = status
-	c        = commit -v
+	c        = commit
+	cv       = commit -v
 	ca       = commit -v --amend
 	co       = checkout
 	cp       = checkout -p
