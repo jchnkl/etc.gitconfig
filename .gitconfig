@@ -37,3 +37,5 @@
 	ps       = push
 	pl       = pull
 	populate = !populate.bash -l -s . -d ..
+[push]
+	default = simple
