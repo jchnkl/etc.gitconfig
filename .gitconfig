@@ -20,11 +20,14 @@
 	ctags    = !.git/hooks/ctags
 	l        = log
 	lp       = log -p
+	lg       = log --graph --date=relative \
+		--pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(blue)<%an>%Creset'
 	s        = status
 	cl       = clone
 	c        = commit
 	cv       = commit -v
 	ca       = commit -v --amend
+	cf       = commit --fixup
 	co       = checkout
 	cp       = checkout -p
 	a        = add
