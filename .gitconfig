@@ -32,10 +32,7 @@
 	r        = reset
 	rp       = reset -p
 	di       = diff
-	sm       = submodule
-	smup     = submodule update --recursive --init
 	ps       = push
 	pl       = pull
-	populate = !populate.bash -l -s . -d ..
 [push]
 	default = simple
