@@ -8,7 +8,7 @@
 	branch = auto
 [core]
 	excludesfile = /home/jochen/.gitignore
-	pager = less -FXRS
+	pager = less $LESS -F
 	editor = vim
 [merge]
 	tool = vimdiff
