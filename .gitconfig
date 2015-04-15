@@ -39,3 +39,5 @@
 	pl       = pull
 [push]
 	default = simple
+[rebase]
+	autosquash = true
